@@ -177,8 +177,8 @@ h6 {
   padding-left: 3px;
 }
 
-.header .btn-getstarted,
-.header .btn-getstarted:focus {
+.btn-getstarted,
+.btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 14px;
@@ -188,8 +188,8 @@ h6 {
   transition: 0.3s;
 }
 
-.header .btn-getstarted:hover,
-.header .btn-getstarted:focus:hover {
+.btn-getstarted:hover,
+.btn-getstarted:focus:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
@@ -847,6 +847,25 @@ section,
 
 .hero .sign-up-form input[type=submit]:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+}
+
+.hero .hero-btn {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 20px 10px 10px 0;
+  border: 2px solid var(--contrast-color);
+  color: var(--contrast-color);
+}
+
+.hero .hero-btn:hover {
+  background: var(--accent-color);
+  border: 2px solid var(--accent-color);
 }
 
 @media (max-width: 768px) {
