@@ -177,8 +177,8 @@ h6 {
   padding-left: 3px;
 }
 
-.btn-getstarted,
-.btn-getstarted:focus {
+.header .btn-getstarted,
+.header .btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 14px;
@@ -188,8 +188,8 @@ h6 {
   transition: 0.3s;
 }
 
-.btn-getstarted:hover,
-.btn-getstarted:focus:hover {
+.header .btn-getstarted:hover,
+.header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
@@ -870,6 +870,37 @@ section,
 .hero .hero-btn:hover {
   background: var(--accent-color);
   border: 2px solid var(--accent-color);
+}
+
+.hero .read-more {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .read-more i {
+  font-size: 18px;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.hero .read-more:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  padding-right: 19px;
+}
+
+.hero .read-more:hover i {
+  margin-left: 10px;
 }
 
 @media (max-width: 768px) {
