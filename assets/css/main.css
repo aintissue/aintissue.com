@@ -2342,6 +2342,10 @@ section,
   color: var(--contrast-color);
 }
 
+.service-details .help-box a {
+  font-size: 1.1em;
+}
+
 .service-details .services-img {
   margin-bottom: 20px;
 }
