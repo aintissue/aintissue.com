@@ -9,17 +9,22 @@
 
 <url>
   <loc>https://aintissue.com/</loc>
-  <lastmod>2024-09-10T21:04:43+00:00</lastmod>
+  <lastmod>2024-09-21T23:32:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://aintissue.com/cofounders</loc>
-  <lastmod>2024-09-10T21:04:43+00:00</lastmod>
+  <loc>https://aintissue.com/tutorials/</loc>
+  <lastmod>2024-09-21T23:32:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://aintissue.com/dev</loc>
-  <lastmod>2024-09-11T12:04:43+00:00</lastmod>
+  <loc>https://aintissue.com/cofounders</loc>
+  <lastmod>2024-09-21T23:32:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aintissue.com/tutorials/free</loc>
+  <lastmod>2024-09-21T23:32:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
