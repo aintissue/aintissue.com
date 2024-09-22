@@ -19,10 +19,12 @@
     window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
 
     const logo = document.getElementById('logo');
-    if (window.scrollY > 100) {
-      logo.src = 'assets/img/logo.png';
-    } else {
-      logo.src = 'assets/img/logo-white.png';
+    if (logo != null) {
+      if (window.scrollY > 100) {
+        logo.src = 'assets/img/logo.png';
+      } else {
+        logo.src = 'assets/img/logo-white.png';
+      }
     }
   }
 
