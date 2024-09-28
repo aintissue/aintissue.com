@@ -225,6 +225,9 @@
 function initStats() {
   $.getJSON("https://api.aintissue.com/stats.json", function(data) {
     $("#users").attr("data-purecounter-end", data.users);
+    $("#projects").attr("data-purecounter-end", data.projects);
+    $("#messages").attr("data-purecounter-end", data.messages);
+    $("#bots").attr("data-purecounter-end", data.bots);
 
       /**
      * Initiate Pure Counter
