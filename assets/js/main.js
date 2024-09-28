@@ -228,5 +228,7 @@
 })();
 
 function initStats() {
-  console.log("stats");
+  $.JSON("https://api.aintissue.com/stats.json", function(data) {
+    console.log(data);
+  });
 }
