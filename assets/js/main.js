@@ -120,11 +120,6 @@
   });
 
   /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
-
-  /**
    * Init isotope layout and filters
    */
   document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
@@ -230,5 +225,10 @@
 function initStats() {
   $.getJSON("https://api.aintissue.com/stats.json", function(data) {
     $("#users").attr("data-purecounter-end", data.users);
+
+      /**
+     * Initiate Pure Counter
+     */
+    new PureCounter();
   });
 }
