@@ -30,6 +30,7 @@
 
   document.addEventListener('scroll', toggleScrolled);
   window.addEventListener('load', toggleScrolled);
+  window.addEventListener('load', initStats);
 
   /**
    * Mobile nav toggle
@@ -225,3 +226,7 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+function initStats() {
+  console.log("stats");
+}
