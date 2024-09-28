@@ -228,7 +228,7 @@
 })();
 
 function initStats() {
-  $.JSON("https://api.aintissue.com/stats.json", function(data) {
+  $.getJSON("https://api.aintissue.com/stats.json", function(data) {
     console.log(data);
   });
 }
