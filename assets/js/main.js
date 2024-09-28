@@ -229,6 +229,6 @@
 
 function initStats() {
   $.getJSON("https://api.aintissue.com/stats.json", function(data) {
-    console.log(data);
+    $("#users").attr("data-purecounter-end", data.users);
   });
 }
